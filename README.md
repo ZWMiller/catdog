@@ -21,3 +21,7 @@ model sucks or if their image needs resizing
 # Also - this is a thing that happened:
 
 ![DuckHunt Dog](readmeImage/duckhuntDog.png)
+
+Class 0 (the left number) = Cat-ness
+Class 1 (the right number) = Dog-ness
+The model knows that's a dog. 

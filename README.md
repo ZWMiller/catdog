@@ -17,3 +17,7 @@ will need to be improved.
 * Change how the network is loaded so it isn't so slow
 * Show the compressed (changed to 200x200) image so the user can gauge if the
 model sucks or if their image needs resizing
+
+# Also - this is a thing that happened:
+
+![DuckHunt Dog](readmeImage/duckhuntDog.png)

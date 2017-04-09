@@ -1,7 +1,7 @@
 # Cat vs Dog Identification
 ### A simple application of transfer learning using convolutinal neural nets
 
-![DuckHunt Dog](readmeImage/duckhuntDog.png)
+![Dog](readmeImage/monroePredict.png)
 
 I used the prebuilt InceptionV3 network and added my own fully connected
 layers. Then using the .ipynb, I built a few generators to shuffle images into
@@ -14,14 +14,19 @@ have that image run through the model on the fly. It's still slow, as it has
 to reload the network and resetablish the training weights each time. That
 will need to be improved.
 
+In the above image, I've shown the model's prediction for that picture of a
+dog. The right output is the "dog-ness" and the left number is the "cat-ness."
+It's very confident that that dog is a dog.
+
 #### To Do
 * Make it pretty
 * Change how the network is loaded so it isn't so slow
 * Show the compressed (changed to 200x200) image so the user can gauge if the
 model sucks or if their image needs resizing
 
-# Referencing the top picture:
+## Also, this happened:
 
+![DuckHunt Dog](readmeImage/duckhuntDog.png)
 
 * Class 0 (the left number) = Cat-ness
 * Class 1 (the right number) = Dog-ness

@@ -26,3 +26,5 @@ model sucks or if their image needs resizing
 * Class 0 (the left number) = Cat-ness
 * Class 1 (the right number) = Dog-ness
 * The model knows that's a dog. 
+
+Original Dataset here: [https://www.kaggle.com/c/dogs-vs-cats](https://www.kaggle.com/c/dogs-vs-cats)

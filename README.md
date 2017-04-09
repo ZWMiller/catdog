@@ -1,6 +1,8 @@
 # Cat vs Dog Identification
 ### A simple application of transfer learning using convolutinal neural nets
 
+![DuckHunt Dog](readmeImage/duckhuntDog.png)
+
 I used the prebuilt InceptionV3 network and added my own fully connected
 layers. Then using the .ipynb, I built a few generators to shuffle images into
 the network and train on the differences between cats and dogs. I froze all
@@ -18,10 +20,9 @@ will need to be improved.
 * Show the compressed (changed to 200x200) image so the user can gauge if the
 model sucks or if their image needs resizing
 
-# Also - this is a thing that happened:
+# Referencing the top picture:
 
-![DuckHunt Dog](readmeImage/duckhuntDog.png)
 
-Class 0 (the left number) = Cat-ness
-Class 1 (the right number) = Dog-ness
-The model knows that's a dog. 
+* Class 0 (the left number) = Cat-ness
+* Class 1 (the right number) = Dog-ness
+* The model knows that's a dog. 

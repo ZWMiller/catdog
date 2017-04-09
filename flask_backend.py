@@ -19,11 +19,11 @@ def viz_page():
 def get_image():
     if request.method == 'POST':
         f = request.files['file']
-        sfname = 'images/'+str(secure_filename(f.filename))
+        sfname = 'static/'+str(secure_filename(f.filename))
         f.save(sfname)
 
         clf = catdog.classifier()
-        #clf.save_image(f.filename)
+       # clf.save_image(f.filename)
         
         return render_template('result.html', pred = clf.predict(sfname), imgpath = sfname)
 

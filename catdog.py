@@ -50,4 +50,4 @@ class classifier(object):
     def save_image(self, fname):
         data = self.prep_image(fname)
         pic = Image.fromarray(data)
-        pic.save('images/'+fname)
+        pic.save('static/'+fname)

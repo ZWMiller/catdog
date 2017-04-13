@@ -21,10 +21,7 @@ def get_image():
         f = request.files['file']
         sfname = 'static/'+str(secure_filename(f.filename))
         f.save(sfname)
-
         clf = catdog.classifier()
-       # clf.save_image(f.filename)
-        
         return render_template('result.html', pred = clf.predict(sfname), imgpath = sfname)
 
 
